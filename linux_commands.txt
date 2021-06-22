@@ -1,0 +1,9 @@
+1. ls -a
+
+2. :set nu
+
+3. df
+
+4. uname
+
+5. chown

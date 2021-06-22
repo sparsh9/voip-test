@@ -1,0 +1,35 @@
+1. Basic concepts of OOPS are :
+a). Classes
+b). Objects
+c). Encapsulation
+d). Polymorphism
+e). Inheritance
+f). Abstraction
+
+
+2. Friend Function : Friend function is a function which is declared outside of the class but it can access all the private and protected members of class.
+
+
+3. Difference : 
+Class - A class is a template of creating objects in program.
+Object - Object is an instance of the class.
+
+
+4. Overriding : If a child class is using the same method as declared in the parent class, it is knows as Overriding.
+Example - 
+class Human {
+    public:
+    void walk(){
+        cout<<"walking";
+    }
+};
+
+class Male: public Human{
+    public:
+    void walk(){
+        cout<<"Male walking";
+    }
+};
+
+
+5. This Pointer - This pointer points and allows object to its access its address.
